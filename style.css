@@ -1,0 +1,55 @@
+body{
+    display: flexbox;
+    margin: 0;
+}
+
+@media (body: dark-theme) {
+    .body{
+        background-color: #000000;
+        color: #ffffff;
+    }
+    .header{
+        background-color: cadetblue;
+    }
+}
+.header{
+    text-align: center;
+    background-color:rgb(199, 199, 199);
+    display: grid;
+    grid-template-columns: .2fr 1.6fr .2fr;
+    padding: 2%;
+}
+h1{
+    margin: 0;
+    padding: 20px;
+    grid-column: 2/3;
+}
+.log{
+    border: 1px solid black;
+    padding: 2vh;
+}
+.popupForm{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 1%;
+    font-size: 20px;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.bookForm{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    border: 1px solid #000000;
+    margin: 1%;
+    padding: 2vh;
+    display: none;
+     
+}
+.addBook>div{
+    display: grid;
+    grid-column: 1fr 1fr;
+    padding: 1vh;
+}
