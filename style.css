@@ -53,3 +53,27 @@ h1{
     grid-column: 1fr 1fr;
     padding: 1vh;
 }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.book{
+    display: grid;
+    border: 1px solid #000000;
+    border-radius: 2vh;
+    padding: 2%;
+    margin: 5%;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+    
+}
+.delete{
+    position: absolute;
+    right: 03px;
+    top:3px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    overflow: hidden;
+    outline: none;
+}
